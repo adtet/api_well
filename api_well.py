@@ -12,7 +12,7 @@ from waitress import serve
 app = Flask(__name__)
 
 
-@app.route('/user/regist', methods=['post'])
+@app.route('/user/ambil', methods=['post'])
 def regist():
     json_data = flask.request.json
     if json_data == None:
